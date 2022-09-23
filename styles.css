@@ -2,6 +2,8 @@
 
 #flex-section1 ul {
 	display: flex;
+	position: relative;
+	left: -20px;
 	justify-content: space-around;
 	margin: auto;
 	list-style: none;
