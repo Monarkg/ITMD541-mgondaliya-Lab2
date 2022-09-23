@@ -116,7 +116,7 @@
 }
 
 #grid-section3 .box3 {
-	
+
 }
 
 #grid-section3 .box4 {
@@ -136,6 +136,7 @@
 	color: #000;
 	padding: 20px;
 	text-decoration: none;
+	transition-delay:3s;
 
 
 }
@@ -143,6 +144,7 @@
 #transition-section .box a:hover {
 	background-color: #cc0000;
 	color: #fff;
+	transition-delay:0.5s;
 
 
 }
