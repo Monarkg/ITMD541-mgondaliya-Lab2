@@ -4,7 +4,7 @@
 	display: flex;
 	justify-content: space-around;
 	margin: auto;
-
+	list-style: none;
 }
 
 /* end Flexbox Part 1 */
@@ -14,6 +14,9 @@
 
 #flex-section2 ul {
 	display: flex;
+	list-style:none;
+	margin: 0;
+    padding: 0;
 }
 
 #flex-section2 li {
@@ -41,11 +44,25 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
+ 	display: flex;
+	align-items: center;
 
+}
+#flex-section3 .card {
+    margin: auto; 
 }
 
 #flex-section3 .tags ul {
+	list-style:none;
+	display: inline;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 
+}
+
+#flex-section3 .tags li {
+	display: inline-block;
 }
 
 /* end Flexbox Part 3 */
@@ -53,47 +70,31 @@
 
 /* Grid Part 1 */
 
-#grid-section1 .grid {
-
-}
+#grid-section1 .grid {}
 
 /* end Grid Part 1 */
 
 
 /* Grid Part 2 */
 
-#grid-section2 .gridboxblue {
+#grid-section2 .gridboxblue {}
 
-}
-
-#grid-section2 .gridboxred {
-
-}
+#grid-section2 .gridboxred {}
 
 /* end Grid Part 2 */
 
 
 /* Grid Part 3 */
 
-#grid-section3 .grid {
+#grid-section3 .grid {}
 
-}
+#grid-section3 .box1 {}
 
-#grid-section3 .box1 {
+#grid-section3 .box2 {}
 
-}
+#grid-section3 .box3 {}
 
-#grid-section3 .box2 {
-
-}
-
-#grid-section3 .box3 {
-
-}
-
-#grid-section3 .box4 {
-
-}
+#grid-section3 .box4 {}
 
 /* end Grid Part 3 */
 
