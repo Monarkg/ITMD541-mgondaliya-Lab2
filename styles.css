@@ -14,9 +14,9 @@
 
 #flex-section2 ul {
 	display: flex;
-	list-style:none;
+	list-style: none;
 	margin: 0;
-    padding: 0;
+	padding: 0;
 }
 
 #flex-section2 li {
@@ -44,16 +44,17 @@
 /* Flexbox Part 3 */
 
 #flex-section3 .box {
- 	display: flex;
-	
+	display: flex;
+
 }
+
 #flex-section3 .card {
-    margin: auto; 
+	margin: auto;
 }
 
 #flex-section3 .tags ul {
-    margin: auto;
-    padding: initial;
+	margin: auto;
+	padding: initial;
 
 }
 
@@ -68,7 +69,9 @@
 
 #grid-section1 .grid {
 	display: grid;
-  	grid-template-columns: auto auto auto auto;
+	grid-template-columns: auto auto auto auto;
+	gap: 20px;
+	height: 200px
 }
 
 /* end Grid Part 1 */
@@ -76,9 +79,20 @@
 
 /* Grid Part 2 */
 
-#grid-section2 .gridboxblue {}
+#grid-section2 .gridboxblue {
+	grid-column-start: 2;
+	grid-column-end: 4;
+	grid-row-start: 1;
+	grid-row-end: 4;
+	z-index: 1;
+}
 
-#grid-section2 .gridboxred {}
+#grid-section2 .gridboxred {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	grid-row-start: 2;
+	grid-row-end: 2;
+}
 
 /* end Grid Part 2 */
 
