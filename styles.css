@@ -99,15 +99,31 @@
 
 /* Grid Part 3 */
 
-#grid-section3 .grid {}
+#grid-section3 .grid {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 10px;
+}
 
-#grid-section3 .box1 {}
+#grid-section3 .box1 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	height: 100px;
+}
 
-#grid-section3 .box2 {}
+#grid-section3 .box2 {
+	height: 300px;
+}
 
-#grid-section3 .box3 {}
+#grid-section3 .box3 {
+	
+}
 
-#grid-section3 .box4 {}
+#grid-section3 .box4 {
+	grid-column-start: 1;
+	grid-column-end: 3;
+	height: 100px;
+}
 
 /* end Grid Part 3 */
 
